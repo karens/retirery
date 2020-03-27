@@ -1,0 +1,106 @@
+/* Header and branding */
+div[role=heading] {
+  /* border-bottom: 2px #dedede solid; */
+  /* box-shadow: 10px 10px 10px #dedede; */
+  /* margin-bottom: 20px; */
+}
+.navbar-header {
+  width: 100%;
+}
+.logo {
+  padding-right: 1em;
+}
+.navbar-brand {
+  font-size: 4em;
+  font-weight: bold;
+  display-block;
+  float: left;
+  margin-top:10px;
+  min-width: 50%;
+}
+.navbar-text {
+  display: block;
+  font-size: 1.5em;
+  float: left;
+  font-style: italic;
+  margin-top: 0px;
+  min-width: 50%;
+}
+
+/* Top menu */
+#navbar ul.menu.nav {
+  display: inline;
+  margin:0;
+  padding:0;
+  float: right;
+}
+#navbar ul.menu.nav li {
+  display: inline-block;
+  list-style-type: none;
+  vertical-align: top;
+  margin: 0;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+/* Footer */
+.footer {
+  text-align: center;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}
+
+@media all and (max-width: 1199px) {
+  div[role=heading] {
+    /* border-bottom: 2px #dedede solid; */
+    box-shadow: none;
+    margin-bottom: 0;
+  }
+  .navbar {
+    margin-bottom: 0;
+  }
+  .navbar-text {
+    display: none;
+  }
+  .navbar-brand {
+    font-size: 30px;
+    margin-top: 5px;
+  }
+  .logo {
+    padding: 0;
+    padding-left: 5px;
+  }
+  .logo img {
+    width: 40px;
+  }
+  .page-header {
+    margin: 0;
+  }
+}
+
+@media all and (max-width: 991px) {
+}
+
+@media all and (max-width: 767px) {
+  .region-sidebar-first {
+    display: none;
+  }
+}

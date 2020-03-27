@@ -1,0 +1,11 @@
+/* Font families */
+body {
+  /*font-family: 'Comfortaa', Georgia, sans-serif;*/
+  /*font-family: 'Short Stack', Georgia, serif;*/
+  font-family: 'Open Sans', Georgia, sans-serif;
+  /*font-family: 'Cutive', Georgia, serif;*/
+}
+
+h1, h2, a.navbar-brand {
+  font-weight: 800;
+}
